@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.backgnd{
+    background-image: url('c5e066a5-f872-4bb1-a855-10b89beddf26-screen-shot-2020-04-17-at-51617-pm.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h3 {
+text-align: center;
+padding-top: 1.5em;
+color: gray;
+}
+
+hr {
+    border-color: tomato;
+    border-width: 3px;
+    opacity: 0.8;
+    position: relative;
+    top: -13px;
+  } 
+
+  .foot{
+    border-color: tomato;
+    width: 5em;
+    top: 0.8em;
+    border-width: 2px;
+    position: relative;
+  }
+
+
+h2{
+    opacity: 0.75;
+    text-align: center;
+}
+
+.card {
+
+    width: 18em;
+    height: 17em;
+    opacity: 0.9;
+    border-radius: 45px;
+}
+
+.section1{
+    height: 32vh;
+}
+
+.btn{
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 20px;
+    color: whitesmoke;
+    opacity: 0.8;
+}
+
+.btn:hover{
+    color: white;
+}
+
+p{
+    font-family: 'Poppins';
+    text-align: center;
+    letter-spacing: 1px;
+    color: tomato;
+}
+
+p.total,p.deaths,p.recovered{
+    font-size: 17px;
+}
+p.country{
+font-size: 20px;
+}
+
+p.footer-text{
+    font-size: 11px;
+    color: tomato;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+#sel{
+    border: 0;
+    width: 15em;
+    height: 2em;
+    padding-left: 5px;
+    border-bottom: 2px solid gray;
+    outline: none;
+    opacity: 0.91;
+    color: gray;
+    background-color: transparent;
+    font-family: 'Poppins';
+}
+
+#opt{
+    color:gray;
+    background-color: white;
+}
